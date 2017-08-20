@@ -1,7 +1,7 @@
 ---
 title: "DatSciInd Exercise 1 web scraping"
 author: "Bekker, Dorette BKKDOR001"
-date: "19 August 2017"
+date: "20 August 2017"
 output: github_document
 ---
 
