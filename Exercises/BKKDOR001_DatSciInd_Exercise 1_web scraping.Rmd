@@ -1,0 +1,35 @@
+---
+title: "DatSciInd Exercise 1 web scraping"
+author: "Bekker, Dorette BKKDOR001"
+date: "19 August 2017"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exercise
+
+Put together a web scraping example/tutorial 
+
+```{r from Corne}
+
+#Cleaner heading list from EWN 
+ewn_elements <- html_nodes(x = ewn_page, css = ".medium-9 .article-short h4, .medium-9 .home-splash h1")
+
+
+#Smaller list of links from Property24
+suburb_links <- suburb %>% html_nodes(".pagination a") %>% html_attr("href")
+
+```
+
+## Including Plots
+
+
+```{r pressure, echo=FALSE}
+
+
+```
+
+
